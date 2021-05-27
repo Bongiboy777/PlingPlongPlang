@@ -1,0 +1,16 @@
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\bin\Debug\net5.0\Plingplangplong.exe
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\bin\Debug\net5.0\Plingplangplong.deps.json
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\bin\Debug\net5.0\Plingplangplong.runtimeconfig.json
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\bin\Debug\net5.0\Plingplangplong.runtimeconfig.dev.json
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\bin\Debug\net5.0\Plingplangplong.dll
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\bin\Debug\net5.0\ref\Plingplangplong.dll
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\bin\Debug\net5.0\Plingplangplong.pdb
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\obj\Debug\net5.0\Plingplangplong.csprojAssemblyReference.cache
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\obj\Debug\net5.0\Plingplangplong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\obj\Debug\net5.0\Plingplangplong.AssemblyInfoInputs.cache
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\obj\Debug\net5.0\Plingplangplong.AssemblyInfo.cs
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\obj\Debug\net5.0\Plingplangplong.csproj.CoreCompileInputs.cache
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\obj\Debug\net5.0\Plingplangplong.dll
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\obj\Debug\net5.0\ref\Plingplangplong.dll
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\obj\Debug\net5.0\Plingplangplong.pdb
+C:\Users\Bongt\OneDrive\Documents\sparta global\eng86\Eng86\PlingPlangPlong\Plingplangplong\obj\Debug\net5.0\Plingplangplong.genruntimeconfig.cache

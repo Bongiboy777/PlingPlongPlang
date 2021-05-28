@@ -20,8 +20,8 @@ The given conditions were
 
 Multiples of these factors will give a combination of the the words according to which factors they contain, and if none of these numbers are factors, then the integer will be written out. For example
 
-- 350(7*5*5*2) gives PlangPlong
-- 0(7*5*3*0) gives PlingPlangPlong
+- 350(7\*5\*5*2) gives PlangPlong
+- 0(7\*5\*3*0) gives PlingPlangPlong
 - 22 gives 22 as neither 3,5 or 7 are factors of 22
 
 ## Approach

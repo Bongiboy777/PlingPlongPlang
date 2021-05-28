@@ -111,23 +111,6 @@ public static class RainDrops
 
 For testing I used the Nunit testing framework, which allows creation of set up, testcases and teardowns. 
 
-### Setup
-The setup is run once for each test case, allowing you to recreate any variables or objects needed, so previous test cases don't affect the next. For this all I needed was to instantiate a rainDrops object with the needed function.
-
-```csharp
-public static class Tests
-    {
-        RainDrops rainDrops;
-        
-        [SetUp] // This tells Nunit the function below is to be treated as a setup function.
-        
-        public void Setup()
-        {
-            rainDrops = new RainDrops();
-        }
-    }
-```
-
 ### Test design
 
 For each test I named it according to the class of input, number and the desired result to make things clear and tracible. I also included a number parameter for each test so the test itself can have its inputs easily changed, when creating individual test cases.

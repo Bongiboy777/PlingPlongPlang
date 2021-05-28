@@ -4,9 +4,9 @@
 
 ## Contents
 
-- [Introduction](# Introduction)
-- [Approach](# Approach)
-- [Testing](# Testing)
+- [Introduction](#Introduction)
+- [Approach](#Approach)
+- [Testing](#Testing)
 
 ## Introduction
 

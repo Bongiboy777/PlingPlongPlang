@@ -4,12 +4,8 @@ namespace PlingPlngPlongTests
 {
     public class Tests
     {
-        RainDrops raingDrops;
-        [SetUp]
-        public void Setup()
-        {
-            raingDrops = new RainDrops();
-        }
+
+    
 
         [TestCase(-3)]
         [TestCase(3)]
@@ -17,7 +13,7 @@ namespace PlingPlngPlongTests
         [TestCase(9999)]
         public void DivisibleBy3GivesPling(int number)
         {
-            Assert.AreEqual(raingDrops.PlingPlangPlongConvert(number), "Pling");
+            Assert.AreEqual(RainDrops.PlingPlangPlongConvert(number), "Pling");
         }
         [TestCase(-5)]
         [TestCase(5)]
@@ -25,7 +21,7 @@ namespace PlingPlngPlongTests
         [TestCase(-50000)]
         public void DivisibleBy5GivesPlang(int number)
         {
-            Assert.AreEqual(raingDrops.PlingPlangPlongConvert(number), "Plang");
+            Assert.AreEqual(RainDrops.PlingPlangPlongConvert(number), "Plang");
         }
 
         [TestCase(-343)]
@@ -35,7 +31,7 @@ namespace PlingPlngPlongTests
         [TestCase(-77777777)]
         public void DivisibleBy7GivesPlong(int number)
         {
-            Assert.AreEqual(raingDrops.PlingPlangPlongConvert(number), "Plong");
+            Assert.AreEqual(RainDrops.PlingPlangPlongConvert(number), "Plong");
         }
 
         [TestCase(2)]
@@ -44,7 +40,7 @@ namespace PlingPlngPlongTests
         [TestCase(-1048576)]
         public void InvalidNumbersDontWork(int number)
         {
-            Assert.AreEqual(raingDrops.PlingPlangPlongConvert(number), number.ToString());
+            Assert.AreEqual(RainDrops.PlingPlangPlongConvert(number), number.ToString());
         }
 
         [TestCase(21)]
@@ -52,9 +48,9 @@ namespace PlingPlngPlongTests
         [TestCase(-441)]
         [TestCase(194481)]
         [TestCase(-194481)]
-        public void DivisibleBy21GivesPlingPlong(int number)
+        public void DivisibleBy7And3GivesPlingPlong(int number)
         {
-            Assert.AreEqual(raingDrops.PlingPlangPlongConvert(number), "PlingPlong");
+            Assert.AreEqual(RainDrops.PlingPlangPlongConvert(number), "PlingPlong");
         }
 
         [TestCase(15)]
@@ -62,18 +58,18 @@ namespace PlingPlngPlongTests
         [TestCase(450)]
         [TestCase(-150000000)]
         [TestCase(150000000)]
-        public void DivisibleBy15GivesPlingPlang(int number)
+        public void DivisibleBy3And5GivesPlingPlang(int number)
         {
-            Assert.AreEqual(raingDrops.PlingPlangPlongConvert(number), "PlingPlang");
+            Assert.AreEqual(RainDrops.PlingPlangPlongConvert(number), "PlingPlang");
         }
 
         [TestCase(35)]
         [TestCase(-350000)]
         [TestCase(-35)]
         [TestCase(350)]
-        public void DivisibleBy35GivesPlangPlong(int number)
+        public void DivisibleBy7And5GivesPlangPlong(int number)
         {
-            Assert.AreEqual(raingDrops.PlingPlangPlongConvert(number), "PlangPlong");
+            Assert.AreEqual(RainDrops.PlingPlangPlongConvert(number), "PlangPlong");
         }
 
         [TestCase(0)]
@@ -81,9 +77,9 @@ namespace PlingPlngPlongTests
         [TestCase(-105)]
         [TestCase(1050)]
 
-        public void DivisibleBy105GivesPlingPlangplong(int number)
+        public void DivisibleBy7And3And5GivesPlingPlangplong(int number)
         {
-            Assert.AreEqual(raingDrops.PlingPlangPlongConvert(number), "PlingPlangPlong");
+            Assert.AreEqual(RainDrops.PlingPlangPlongConvert(number), "PlingPlangPlong");
         }
     }
 }

@@ -2,17 +2,9 @@
 
 namespace Plingplangplong
 {
-    class Program
+    public static class RainDrops
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-
-    public class RainDrops
-    {
-        public string PlingPlangPlongConvert(int number)
+        public static string PlingPlangPlongConvert(int number)
         {
             string ans = "";
             if(number % 3 == 0)
@@ -29,17 +21,8 @@ namespace Plingplangplong
             {
                 ans += "Plong";
             }
-                try
-                {
+
                 return ans != "" ? ans: number.ToString() ;
-                }
-
-                catch(Exception e)
-                {
-                    return "Not a valid input.";
-                }
-
-            
         }
     }
 }

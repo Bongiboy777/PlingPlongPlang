@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plingplangplong", "Plingplangplong.csproj", "{8A01076F-D2C4-4790-88FF-EEC726178148}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plingplangplong", "Plingplangplong.csproj", "{8A01076F-D2C4-4790-88FF-EEC726178148}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlingPlngPlongTests", "..\PlingPlngPlongTests\PlingPlngPlongTests.csproj", "{044F8ADA-8E2C-4A49-BD50-42EF6D054882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlingPlangPlongTests", "..\PlingPlngPlongTests\PlingPlangPlongTests.csproj", "{B95AB2E3-8D56-4B78-922B-30E20985C9F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{8A01076F-D2C4-4790-88FF-EEC726178148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A01076F-D2C4-4790-88FF-EEC726178148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A01076F-D2C4-4790-88FF-EEC726178148}.Release|Any CPU.Build.0 = Release|Any CPU
-		{044F8ADA-8E2C-4A49-BD50-42EF6D054882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{044F8ADA-8E2C-4A49-BD50-42EF6D054882}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{044F8ADA-8E2C-4A49-BD50-42EF6D054882}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{044F8ADA-8E2C-4A49-BD50-42EF6D054882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95AB2E3-8D56-4B78-922B-30E20985C9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95AB2E3-8D56-4B78-922B-30E20985C9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95AB2E3-8D56-4B78-922B-30E20985C9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95AB2E3-8D56-4B78-922B-30E20985C9F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

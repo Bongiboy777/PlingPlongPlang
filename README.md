@@ -7,6 +7,8 @@
 - [Introduction](#Introduction)
 - [Approach](#Approach)
 - [Testing](#Testing)
+	- [Test Design](#Test%20Design)
+	- [Test Cases](#Test%20Cases)
 
 ## Introduction
 

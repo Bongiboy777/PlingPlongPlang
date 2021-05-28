@@ -93,16 +93,8 @@ public static class RainDrops
                 ans += "Plong";
             }
 
-            return ans;
-                try
-                {
                 return ans != "" ? ans: number.ToString() ;
-                }
-
-                catch(Exception e)
-                {
-                    return "Not a valid input.";
-                {
+              
         }
     }
 ```

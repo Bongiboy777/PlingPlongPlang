@@ -1,4 +1,4 @@
-# PlingPlongPlang
+# PlingPlangPlong
 
 
 
@@ -28,9 +28,9 @@ Multiples of these factors will give a combination of the the words according to
 
 In my approach I decided to create a test and console project, in order to ensure quality. In the console project, I created a separate class for the functionality and inside made a single function, which takes the integer to convert as a parameter, and converts to a string for output.
 ```csharp
-public class RainDrops
+public static class RainDrops
 {
-    public string PlingPlangPlongConvert(int number)
+    public static string PlingPlangPlongConvert(int number)
     {
 		string ans = "";
         return ans;
@@ -42,9 +42,9 @@ public class RainDrops
 Then to cover the conditions I used a chain of if statements to concatenate onto the string based on the presence of a factor. This was ideal compared to if else or case statements, as each statement only has to be run once, without conditional loops or unnecessary comparisons. 
 
 ```csharp
-public class RainDrops
+public static class RainDrops
     {
-        public string PlingPlangPlongConvert(int number)
+        public static string PlingPlangPlongConvert(int number)
         {
             string ans = "";
             if(number % 3 == 0)
@@ -73,9 +73,9 @@ Finally, to have a returned number if none of the factors were present, I used a
 Although, there should be no errors since, the method signature only allows valid inputs (single integer), I added a try catch block, in case for some reason there was an error.
 
 ```csharp
-public class RainDrops
+public static class RainDrops
     {
-        public string PlingPlangPlongConvert(int number)
+        public static string PlingPlangPlongConvert(int number)
         {
             string ans = "";
             if(number % 3 == 0)
@@ -115,7 +115,7 @@ For testing I used the Nunit testing framework, which allows creation of set up,
 The setup is run once for each test case, allowing you to recreate any variables or objects needed, so previous test cases don't affect the next. For this all I needed was to instantiate a rainDrops object with the needed function.
 
 ```csharp
-public class Tests
+public static class Tests
     {
         RainDrops rainDrops;
         
@@ -136,7 +136,7 @@ The Assert object  provided by NUnit, gives the conditions of verification of th
 
 
 ```csharp
-public void DivisibleBy35GivesPlangPlong(int number)
+public void DivisibleBy7And5GivesPlangPlong(int number)
         {
             Assert.AreEqual(rainDrops.PlingPlangPlongConvert(number), "PlangPlong");
         }
@@ -160,7 +160,7 @@ To fully test the functionality I wanted to have full path coverage of factors a
 [TestCase(-35)]
 [TestCase(350)]
         
-public void DivisibleBy35GivesPlangPlong(int number)
+public void DivisibleBy7And5GivesPlangPlong(int number)
     {
         Assert.AreEqual(rainDrops.PlingPlangPlongConvert(number), "PlangPlong");
     }
